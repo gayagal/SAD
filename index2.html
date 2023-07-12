@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.10.2/p5.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.10.2/addons/p5.sound.min.js"></script> -->
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="style2.css">
+  </head>
+    <body>
+<header>
+  <a href="#backgroundLines">
+    <img class="backToTopButton" src="assets2/backtotop.png"></img>
+  </a>
+
+
+
+
+    <div id="backgroundLines">
+      <div class="line1"></div>
+      <div class="line2"></div>
+      <div class="line3"></div>
+      <div class="line4"></div>
+      <div class="line5"></div>
+      <div class="line6"></div>
+      <div class="line7"></div>
+    </div>
+    <div>
+
+      <ul id="topMenuBar">
+        <li><a href="#chepterOverview"> Overview</a></li>
+        <li><a href="#chepterSymptoms"> Symptoms</a></li>
+        <li><a href="#chepterCauses"> Causes</a></li>
+        <li><a href="#chepterRisks"> Risks</a></li>
+        <li><a href="#summerchepter"> Seasons</a></li>
+        <li><a href="#chepterPrevention"> Prevention</a></li>
+      </ul>
+      <div class=SAD>SAD</div>
+    </div>
+    <div class="headerBottomBlackStripe">black</div>
+</header>
+
+  <video class="video1"  autoplay loop muted>
+        <source src="assets2/video1.mp4" type="video/mp4">
+  </video>
+<section>
+    <div id="chepterOverview">
+      <div class="runningTitlesContainer">
+        <div class="runningTitlesOverview"> Overview </div>
+      </div>
+      <div class="whiteBackgound1"> white </div>
+
+      <div class= "overviewBigText">
+       Seasonal affective disorder (SAD) is a type of depression that is related to changes in seasons.
+      </div>
+      <div class="overviewRuningText"> 
+              SAD begins and ends at about the same times every year. If you're like most people with SAD, your symptoms
+            <span>
+              start in the fall and continue into the winter  months,
+            </span>
+              sapping your energy and making you feel moody.
+              <br> 
+              <br>
+              Don't brush off that yearly feeling as simply a case of the "winter blues" or a seasonal funk that you have to tough out on your own. 
+            <span>
+              Take steps to keep your mood and motivation steady throughout the year.
+            </span>
+              <br>
+              <br>
+              These symptoms often 
+            <span>
+              resolve during the spring and summer months.
+            </span>
+              Less often, SAD causes depression in the spring or early summer and resolves during the fall or winter months.
+      </div>
+          <div class="containerSideImage">
+            <img  class="firstSideImage" src="assets2/Image1.jpg">
+          </div>
+
+    </div>
+
+</section>
+  <div id="chepterSymptoms">
+
+    <div class="runningTitlesContainerSymptoms">
+         <div class="runningTitlesSymptoms"> Symptoms  </div>
+      </div>
+         <div class="whiteBackgound2"> white</div> 
+
+        <div class="circleInstructionForCirclesAppearing">.</div>
+        <div class="textInstructionForCirclesAppearing">Click everywhere for symptoms</div>
+
+      <div class="symptomsrunning"> 
+         In most cases, the SAD symptoms appear during late fall or early winter and 
+               <span class="text2">
+               go away during the sunnier days of spring and summer.
+             </span> 
+             <br>
+             Less commonly, people with the opposite pattern have symptoms that begin in spring or summer.
+             <br>
+            In either case, symptoms may
+             <span class="text2">
+             start out mild and become more severe 
+             </span>
+              as the season progresses.
+              </div>
+              <!-- <div class="ballsinstructions">
+              Click on the screen to see the symptoms
+              </div> -->
+              <div class="Sketch-Holder" id="sketch-holder"></div> 
+</div> 
+
+
+<div id="chepterCauses">
+  <div class="runningTitlesContainerCauses">
+       <div class="runningTitlesCauses"> Causes</div>
+    </div>
+    <div class="whiteBackgound3"> white</div> 
+    
+    <div class="causesBody">
+
+ <div class="causesContenTitleBlackRec">
+      <div class="rectangle1"></div>
+      <div class="rectangle2"></div> 
+      <div class="rectangle3"></div>
+  </div>
+<div class="causesContentTitleText">
+  <div class="Serotoninlevels">Serotonin levels<br>&#8595</div>
+  <div class="circadianrhythm">Circadian rhythm<br>&#8595</div> 
+  <div class="Melatoninlevels">Melatonin levels<br>&#8595</div>
+</div>
+ <div class="causesContentVideos">
+        <video class="causesVideo1" autoplay loop muted>
+          <source src="assets2/video2.mp4" type="video/mp4">
+        </video>     
+        
+        <video class="causesVideo2" autoplay loop muted>
+          <source src="assets2/video2.mp4" type="video/mp4">
+        </video>
+      
+        <video class="causesVideo3" autoplay loop muted>
+          <source src="assets2/video2.mp4" type="video/mp4">
+        </video>
+        <script>
+          var video1 = document.querySelector('.video22');
+          var video1 = document.querySelector('.video222');
+          var video2 = document.querySelector('.video2');
+          
+          video1.addEventListener('canplaythrough', function() {
+            // Add a delay of 2 seconds (2000 milliseconds) to video2
+            video2.currentTime = 2;
+          });
+        </script>
+        <div class="causesrunningcontainer">
+        <div class="causerunning"> 
+          drop in serotonin, a brain chemical (neurotransmitter) that affects mood, might play a role in SAD. Reduced sunlight can cause a drop in serotonin that may trigger depression.
+        </div>
+        <div class="causerunning"> 
+          Your biological clock. The reduced level of sunlight in fall and winter may cause winter SAD. This decrease in sunlight may disrupt your body's internal clock and lead to feelings of depression.
+        </div>
+        <div class="causerunning"> 
+          The change in season can disrupt the balance of the body's level of melatonin, which plays a role in sleep patterns and mood.        
+        </div>
+        </div>
+ </div>
+ <div class="rectangle4"></div>
+  </div>
+    </div>
+
+    <!-- <div class="chepterCauses">
+      <div class="runningTitlesContainerCauses">
+           <div class="runningTitlesCauses"> Causes</div>
+        </div>
+        <div class="whiteBackgound3"> white</div> 
+         -->
+
+<div id="chepterRisks">
+  <div class="runningTitlesContainerRisks">
+       <div class="runningTitlesRisks"> risks </div>
+      </div>
+      <div class="whiteBackgound4"> white</div>      
+
+      <div class="containergallery2">
+        <img class="imggallery" src="assets2/Image2.jpg">
+      </div>
+
+      <div class= "risksbig">
+        SAD is commen more often in women than in men, and more frequently in younger adults than in older adults.
+      </div>
+      <div class="risksruning">
+      <div class="riskruningsmall"> 
+       <span class="text3">
+        Family history
+        </span>
+        <br>
+        People with SAD may be more likely to have blood relatives with SAD or another form of depression.  
+        <br> 
+        <span class="text2">
+        Having major depression or bipolar disorder.
+        </span>
+        Symptoms of depression may worsen seasonally if you have one of these conditions.
+        </div>
+        <div class="riskruningsmall"> 
+          <span class="text3">
+          Low level of vitamin D.
+          </span>
+          <br>
+          Some vitamin D is produced in the skin when it's exposed to sunlight. 
+          <br>
+           <span class="text2">
+           Vitamin D can help to boost serotonin activity.   
+          </span>
+          Less sunlight and not getting enough vitamin D from foods and other sources may result in low levels of vitamin D in the body.
+        </div>
+          <div class="riskruningsmall"> 
+          <span class="text3">
+          Living far from the equator.
+          </span>
+          SAD appears to be more common among people who live far north or south of the equator.
+           <br>
+          This may be due to  
+           <span class="text2">
+            decreased sunlight   
+          </span>
+          during the winter and 
+          <span class="text2">
+            longer days   
+          </span>
+          during the summer months.
+         </div>
+      </div>
+</div>
+
+
+      <div class="seasons">
+        <div id="summerchepter">
+          <div class="runningTitlesContainerSeasons">
+             <div class="runningtitles4"> Seasons
+            </div>
+            </div>
+             <div class="whiteBackgound5"> white</div>  
+             <div class="seasonsCompereringTitle">
+             <div>Winter</div>
+             <div>Summer</div>
+             </div>    
+            <div class="comparesymptopms">
+            <div class="containerwintersymptoms">
+              <div class="wintersymptoms"><div class="num">1/5</div><div class="small">&#9729;</div> <div class="large"> Oversleeping</div></div>
+              <div class="wintersymptoms"><div class="num">2/5</div><div class="small">&#9729;</div> <div class="large"> Changes</div></div>
+              <div class="wintersymptoms"><div class="num">3/5</div><div class="small">&#9729;</div> <div class="large"> Weight gain</div></div>
+              <div class="wintersymptoms"><div class="num">4/5</div><div class="small">&#9729;</div> <div class="large"> Tiredness or low energy</div></div>
+              <div class="wintersymptoms"><div class="num">5/5</div><div class="small">&#9729;</div> <div class="large"> Craving for foods high in carbohydrates</div></div>
+            </div>
+
+            <div class="containersummersymptoms">
+              <div class="summersymptoms"><div class="num">1/5</div><div class="small2">&#9728;</div> <div class="large"> Trouble sleeping (insomnia)</div></div>
+              <div class="summersymptoms"><div class="num">2/5</div><div class="small2">&#9728;</div> <div class="large"> Poor appetite</div></div>
+              <div class="summersymptoms"><div class="num">3/5</div><div class="small2">&#9728;</div> <div class="large"> Weight loss</div></div>
+              <div class="summersymptoms"><div class="num">4/5</div><div class="small2">&#9728;</div> <div class="large"> Agitation or anxiety</div></div>
+              <div class="summersymptoms"><div class="num">5/5</div><div class="small2">&#9728;</div> <div class="large"> Increased irritability</div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div id="chepterPrevention">
+
+        <div class="runningTitlesContainerPrevention">
+             <div class="runningTitlesPrevention">Prevention
+            </div>
+             </div>
+
+            <!-- <div class="whiteBackgound6"> white</div>      -->
+            <video class="causesVideo4" autoplay loop muted>
+              <source src="assets2/video4.mp4" type="video/mp4">
+            </video>  
+            <div class="preventionContent">
+ 
+              <span class="text2">
+              There's no known way to prevent the development of seasonal affective disorder. </span>
+              <br>
+              However, if you take steps early on to manage symptoms, you may be able to prevent them from getting worse over time. 
+              You may be able to head off serious changes in mood, appetite and energy levels, as you can 
+              <span class="text2">
+              predict the time of the year
+            </span>
+
+               in which these symptoms may start. 
+              <br>
+              Treatment can help prevent complications, especially if SAD is diagnosed and treated 
+              <span class="text2">
+              before symptoms get bad.
+              </span>
+              Some people find it helpful to begin treatment before symptoms would normally start in the fall or winter, and then continue treatment past the time symptoms would normally go away. Other people need 
+              <span class="text2">
+              continuous treatment to prevent symptoms from returning.
+              </span>
+              <div class="cloudIcon">&#9729;</div>
+            </div>
+          </div>
+          <div class="ending">
+            <div>
+            This is a webpage designed by Gaya Gal (@Gaya.Monday), <br>for a Web-Desing course in Bezalel Academy.
+                         </div>
+                         <div>
+                          © All Rights Reserve
+                         </div>
+             <script src="sketch2.js" ></script>
+             <script src="Ball.js"></script>
+
+
+
+<!--              
+             <div class="p-header">
+              <nav class="p-header__nav p-nav">
+                <div class="p-nav__lists">
+                  <div class="p-nav__list">
+                    <a class="js-splitText is-active" href="./">ホーム</a>
+                  </div>
+                  <div class="p-nav__list">
+                    <a class="js-splitText" href="./">お知らせ</a>
+                  </div>
+                  <div class="p-nav__list">
+                    <a class="js-splitText" href="./">商品情報</a>
+                  </div>
+                  <div class="p-nav__list">
+                    <a class="js-splitText" href="./">ヒストリー</a>
+                  </div>
+                  <div class="p-nav__list">
+                    <a class="js-splitText" href="./">ご予約</a>
+                  </div>
+                </div>
+              </nav>
+            </div> -->
+  </body>
+
+</html>
+
+
+
+
+
+
+
+
+
+              <!-- <div id="container">
+                <span id="text1"></span>
+                <span id="text2"></span>
+            </div>
+            
+            <svg id="filters">
+                <defs>
+                    <filter id="threshold">
+                        <feColorMatrix in="SourceGraphic" type="matrix" values="1 0 0 0 0
+                              0 1 0 0 0
+                              0 0 1 0 0
+                              0 0 0 255 -140" />
+                    </filter>
+                </defs>
+            </svg>
+ -->
